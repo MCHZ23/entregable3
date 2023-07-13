@@ -1,1 +1,62 @@
 
+.resident-container{ 
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5em;
+}
+input{ 
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 10px;
+    background-Color: rgb(219, 238, 219);
+    margin-bottom: 4em;
+}
+button{ 
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 10px;
+    background-Color: rgb(97, 211, 97);
+}
+
+.container{ 
+    
+    margin: 3em;
+}
+form{ 
+    
+    text-align: center;
+    margin-top: 3em;
+    
+}
+article{ 
+    
+    text-align: center;
+}
+h1{
+    text-align: center;
+    
+}
+h2{ 
+    color: rgb(135, 191, 135);
+    text-align: center;
+    
+}
+section{ 
+    
+    text-align: left;
+}
+span{ 
+    
+    font-size: large;
+    
+}
+
+body{ 
+    
+    background-color: rgb(23, 41, 41);
+}
+li{
+    padding-inline: 2em;
+}
+
+
