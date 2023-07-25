@@ -13,7 +13,7 @@ function App() {
   const [hasError, setHasError] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
-  const [perPage] = useState(7);
+  const [perPage] = useState(20);
 
   useEffect(() => {
     fetchData();
@@ -56,16 +56,6 @@ function App() {
     
     <div className='container'>
 
-      <div>
-
-          <div>
-            <h1 className='container__letter'>Rick And Morty</h1>
-          </div>
-          <div>
-            <h1 className='container__name'>Rick And Morty</h1>
-            
-          </div>
-      </div>
       <Imagen /> 
       
       

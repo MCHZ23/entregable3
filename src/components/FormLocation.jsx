@@ -16,9 +16,12 @@ const FormLocation = ({setIdLocation}) => {
   }
 
   return (
-    <form className='allButton' onSubmit={handleSubmit}>
-        <input name="inputInfo" type="text" />
-        <button>Search</button>
+    <form onSubmit={handleSubmit}>
+      <div className='allButton'>
+      <input name="inputInfo" type="text" />
+        <button className='text-container'>Search</button>
+      </div>
+        
     </form>
   )
 }

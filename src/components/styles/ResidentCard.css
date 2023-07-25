@@ -85,12 +85,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -3em;
 }
 .stilux{ 
     
-    background-color: rgb(68, 71, 71);
+    background-color: rgb(46, 54, 54);
     margin: 3em;
-    width: 40em;
+    width: 48em;
     border-radius: 0.5em;
 }
 .ordenada{
@@ -131,40 +132,17 @@
     margin-top: 0.5em;
     padding-inline: 1.9em;
 }
-.img-container{ 
 
-    display: flex;
-    justify-content: center;
+.text-container{ 
+    color: aliceblue;
+    background-color: green;
+    font-size: 2em;
 }
-.img-container img { 
-
-    width: 90%;
-    height: 500px;
-    object-fit: cover;
-    height: 30em;
-    width: 120em;
+.imag img{
+    height: 800px;
     
-}
-.container__name {
-    position: absolute;
-    top: 37%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3.5em;
-    color: rgba(56, 21, 131, 0.885);
-  }
-  
-  .container__letter {
-    position: absolute;
-    top: 37%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3.5em;
-    color: rgb(246, 246, 109);
-  }
-.allButton{ 
+    
 
-    border-radius: 6em;
 }
 
 

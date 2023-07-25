@@ -24,6 +24,8 @@ const ResidentCard = ({ url }) => {
   };
 
   return (
+    
+    
     <article className="resident">
       <header className="resident__header">
         <img className="resident__image" src={character?.image} alt="" />
